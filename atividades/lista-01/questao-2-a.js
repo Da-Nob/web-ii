@@ -3,4 +3,4 @@ let dolares = Number(prompt("informe a cotacao do dolar: "));
 
 let res = document.querySelector("#res");
 
-// res.textContent = `US$ ${real / dolares}`;
+res.textContent = `US$ ${real / dolares}`;
